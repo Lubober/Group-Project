@@ -1,0 +1,135 @@
+.stockentriescomponent{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.stockentries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.stockentryinfos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+
+/*  */
+.stockentry{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+    font-size: 17px;
+}
+/*  */
+
+
+.stockguide>.stockentry-el{
+    color:rgba(255, 255, 255, 0.847);
+    font: inherit;
+    margin: 0;
+    font-style: oblique;
+}
+.stockguide>.stockentry-el>p{
+    padding: 0;
+}
+
+.stockentry-el:nth-of-type(1){
+    order: 5;
+    max-width: 80px;
+}
+.stockdata>.stockentry-el:nth-of-type(1){
+    
+    background: linear-gradient(345deg, rgba(41,49,126,1) 0%, rgba(96,14,137,1) 100%);
+    border: solid white 1px;
+    
+    border-radius: 20px;
+}
+
+.stockentry-el:nth-of-type(2){
+    max-width: 300px;
+}
+.stockentry-el:nth-of-type(3){
+    max-width: 100px;
+}
+.stockentry-el:nth-of-type(4){
+    max-width: 70px;
+    
+   
+}
+.stockentry-el:nth-of-type(5){
+    max-width: 100px;
+    /* display: none; */
+}
+.stockentry-el:nth-of-type(6){
+    max-width:130px;
+    /* display: none; */
+}
+
+a.stock-label{
+    /* font-size: 16px; */
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 2px;
+}
+
+.stockdata>.stockentry-el:nth-of-type(1):hover ~ .stockentry-el  {
+    color: white;
+    font-weight: 700;
+}
+.stockdata>.stockentry-el:nth-of-type(1):hover{
+    box-shadow: 0 0  7px 1px white;
+    cursor: pointer;
+}
+
+/*  */
+.stock-label{
+    margin: 10px; 
+}
+
+.stock-label.green + i, .stock-label.green{
+    color: rgb(20, 173, 0);
+
+}
+
+
+.stockentry-el{
+    flex:10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+    transition: 0.2s;
+    /* font-size: 17px; */
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.791);
+}
+
+.stockentry-el.change>div{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.stock-label.red+ i,.stock-label.red{
+    color:red;
+}
+.stock-label.red+i{
+    transform: rotate(180deg);
+}
+
+
+.rm{
+    order: 6;
+    width: 0px;
+}

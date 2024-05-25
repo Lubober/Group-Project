@@ -1,0 +1,18 @@
+.form-text-box-login{
+    width:100px; 
+    gap: 10px;
+}
+.btn-dark-purple-login{
+    width: 200px;
+}
+.log-in-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 150%;
+}
+.login-sign-up-button{
+    color: rgb(38, 38, 165);
+}

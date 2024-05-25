@@ -1,0 +1,125 @@
+.Account-page{
+    height: 1000px;
+    width: 900px;
+    margin: auto;
+    
+}
+.header{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.content{
+    margin-top: 70px;
+    margin: 20px;
+    display: flex;
+
+}
+
+.left-account-info{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+
+.right-account-info{
+    
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+.password-content{
+    display: flex;
+    margin: 20px;
+}
+
+
+.left-password-info{
+    
+   
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+
+.right-password-info{
+    
+   
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+.right-password-info input{
+    background: transparent;
+    color:aliceblue;
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+}
+
+.update-content {
+    display: flex;
+    margin: 20px;
+}
+
+.left-update-info{
+    
+   
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+
+.right-update-info{
+    
+   
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+    
+}
+
+.right-update-info input{
+    background: transparent;
+    color:aliceblue;
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+}
+
+
+.btn-dark-purple-accounts{
+    margin-top: 30px;
+    
+}
+
+button{
+    font-size: 5px;
+}
+
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.functional_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary.custom-pink {
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+}
+
+.btn-primary:hover.custom-pink {
+  background-color: #732d91;
+  border-color: #732d91;
+}
+
+
+.main-content {
+  color: #fff;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.financial-learning {
+  color: #CD86C9;
+  white-space: nowrap;
+}
+
+/* stat on the graph */
+
+.stat-title {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.stat-change {
+  font-size: 1.5rem;
+  color: #4CAF50; 
+}

@@ -1,0 +1,25 @@
+.form-text-box{
+    display:flex;
+    flex-direction: column;
+    width: 480px;
+
+}
+
+.form-text-box>label{
+    
+}
+.form-text-box>input{
+    border-radius: 20px;
+    outline: none;
+}
+.two-inputs-in-one-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+}
+.two-inputs-in-one-row>.form-text-box{
+    width:220px;
+}
+

@@ -1,0 +1,70 @@
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trade-functionality-area > input{
+    border-radius: 20px;
+    outline: none;
+}
+
+.toggle-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.trade-price-elements {
+    padding-top: 20px;
+    width: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-quantity-elements {
+    padding-top: 20px;
+    width: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.trade-functionality-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 480px;
+    height: 427px;
+    background-color: rgba(61, 67, 107, 0.2);
+    margin-top: 155px;
+    margin-left: 40px;
+}    
+
+.priceandchange {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.change {
+    padding-left: 10px;
+}
+
+.graph {
+    width: auto;
+}

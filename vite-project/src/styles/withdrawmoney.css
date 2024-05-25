@@ -1,0 +1,48 @@
+.Add-Money-Page{
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    
+}
+.header{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.content{
+    margin-top: 70px;
+    margin: 20px;
+    display: flex;
+}
+
+.left-withdrawmoney-content{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+}
+
+.right-withdrawmoney-content{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200%;
+
+}
+
+
+.right-withdrawmoney-content input{
+    background: transparent;
+    color:aliceblue;
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+}
+.btn-dark-purple-accounts{
+    margin-top: 30px; 
+}
+
+button{
+    font-size: 5px;
+}

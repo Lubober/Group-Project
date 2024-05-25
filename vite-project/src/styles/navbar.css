@@ -1,0 +1,106 @@
+/* NAVBAR STYLES (SELF EXPLANATORY) */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 20px!important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    
+}
+.nav-el{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.nav-logo{
+    
+    font-style: inherit;
+    text-align: center;
+}
+.logo-el{
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 35px;
+    margin: 0;
+}
+.logo-cardiff{
+    font-weight: 500;
+}
+.logo-exchange{
+    font-weight: 700;
+    color: #CC85C8;
+}
+.right-nav-el-group{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.right-nav-el-group>.account-link{
+    background: linear-gradient(150deg, rgb(136, 20, 119) 0%, rgb(64, 11, 87) 100%);
+    border: solid rgb(153, 153, 153) 2px;
+    padding-left: 5px;
+    padding-right: 20px;
+    width:max-content;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.right-nav-el-group>.account-link>i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.right-nav-el-group>.account-link:hover{
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.566);
+    
+}
+
+.pink-button{
+    padding-bottom: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(150deg, #7d0843a9  0%, rgb(113, 17, 99) 100%);
+    border-radius: 20px;
+    text-decoration: none;
+    font: inherit;
+    color:rgb(253, 253, 253);
+    font-size: 20px;
+    font-weight:500;
+    text-align: center;
+    transition: 0.4s;
+    border: 2px rgb(153, 153, 153) solid;
+}
+.dark-text{
+    color: rgba(255, 255, 255, 0.667) !important;
+}
+.pink-button:hover{
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.566);
+    /* background:linear-gradient(90deg, rgb(136, 20, 119) 20%, #c169bdd5 100%); */
+    background-position: 0% 100%;
+}
+.home-secondary{
+    padding: 0;
+    padding-bottom: 2px;
+    margin: 0;
+    font-size: 25px;
+    margin-right: 40px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none !important;
+    color: rgba(217, 217, 217, 0.877) !important;
+    transition: 0.4s;
+}
+a:hover{
+    color: white !important;
+}
